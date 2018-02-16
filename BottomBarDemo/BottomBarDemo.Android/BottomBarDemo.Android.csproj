@@ -58,12 +58,12 @@
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.4.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Component\Renderers\BottomBarPageRenderer.cs" />
-    <Compile Include="Component\Utils\IPageController.cs" />
-    <Compile Include="Component\Utils\MeasureSpecFactory.cs" />
-    <Compile Include="Component\Utils\PageController.cs" />
-    <Compile Include="Component\Utils\ReflectedProxy.cs" />
-    <Compile Include="Component\Utils\ResourceManagerEx.cs" />
+    <Compile Include="BottomBar\Renderers\BottomBarPageRenderer.cs" />
+    <Compile Include="BottomBar\Utils\IPageController.cs" />
+    <Compile Include="BottomBar\Utils\MeasureSpecFactory.cs" />
+    <Compile Include="BottomBar\Utils\PageController.cs" />
+    <Compile Include="BottomBar\Utils\ReflectedProxy.cs" />
+    <Compile Include="BottomBar\Utils\ResourceManagerEx.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
