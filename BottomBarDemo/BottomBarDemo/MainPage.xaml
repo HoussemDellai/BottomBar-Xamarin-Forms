@@ -3,7 +3,7 @@
 
     <ContentPage Title="Favorites" Icon="ic_favorites.png" />
 
-    <ContentPage Title="Friends" Icon="ic_friends.png" xf:BottomBarPageExtensions.TabColor="#5D4037" />
+    <ContentPage Title="Friends" Icon="ic_friends.png" xf:BottomBarPageExtensions.TabColor="#5D4037" xf:BottomBarPageExtensions.BadgeCount="6" xf:BottomBarPageExtensions.BadgeColor="DeepPink" />
 
     <ContentPage Title="Nearby" Icon="ic_nearby.png" xf:BottomBarPageExtensions.TabColor="#7B1FA2" />
 
