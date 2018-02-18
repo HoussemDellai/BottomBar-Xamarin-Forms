@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace BottomBarDemo
 {
@@ -13,7 +8,7 @@ namespace BottomBarDemo
 		{
 			InitializeComponent();
 
-			MainPage = new BottomBarDemo.MainPage();
+			MainPage = new NavigationPage(new MainPage());
 		}
 
 		protected override void OnStart ()
